@@ -14,6 +14,7 @@ import {
   TablesWidget10,
   TablesWidget5,
 } from "../../../_metronic/partials/widgets";
+import FeaturedCarousel, { FeaturedItem } from "./FeaturedCarousel";
 
 const HomePage = () => (
   <>
@@ -30,9 +31,31 @@ const HomePage = () => (
 
 const HomeWrapper = () => {
   const intl = useIntl();
+  const items: FeaturedItem[] = [
+  {
+    id: 1,
+    title: "Starfall Odyssey",
+    description: "Explore a hand-crafted galaxy, build your fleet, and decide who rules the stars.",
+    poster: "/img/starfall.jpg",
+    videoSrc: "/video/starfall.mp4",
+    href: "/games/starfall",
+  },
+  {
+    id: 2,
+    title: "Starfall Odyssey 2",
+    description: "Explore a hand-crafted galaxy, build your fleet, and decide who rules the stars.",
+    poster: "/img/starfall.jpg",
+    videoSrc: "/video/starfall.mp4",
+    href: "/games/starfall",
+  },
+  // ...more items
+];
+
   return (
     <>
-      <HomePage />
+      <div>
+        <FeaturedCarousel items={items} mediaPosition="left" autoPlayInterval={8000} />
+      </div>
     </>
   );
 };
