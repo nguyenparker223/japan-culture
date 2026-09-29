@@ -1,0 +1,26 @@
+[
+  {
+    "id": "IN0001",
+    "customerId": "C0002",
+    "createDate": "18/04/2025",
+    "paymentMethod": "cash",
+    "paymentStatus": true,
+    "state": true
+  },
+  {
+    "id": "IN0002",
+    "customerId": "C0002",
+    "createDate": "10/04/2025",
+    "paymentMethod": "cash",
+    "paymentStatus": true,
+    "state": true
+  },
+  {
+    "id": "IN0003",
+    "customerId": "C0001",
+    "createDate": "18/02/2025",
+    "paymentMethod": "cash",
+    "paymentStatus": true,
+    "state": true
+  }
+]

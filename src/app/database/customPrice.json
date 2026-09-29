@@ -1,0 +1,14 @@
+[
+  {
+    "customerId": "C0001",
+    "itemDetailId": "it001",
+    "itemCustomPrice": 12000,
+    "customPriceValid": true
+  },
+  {
+    "customerId": "C0001",
+    "itemDetailId": "it003",
+    "itemCustomPrice": 11500,
+    "customPriceValid": true
+  }
+]

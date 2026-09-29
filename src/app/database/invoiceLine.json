@@ -1,0 +1,29 @@
+[
+  {
+    "invoiceId": "IN0001",
+    "itemDetailId": "it003",
+    "itemQuantityType": "Lẻ",
+    "itemQuantity": 6
+  },
+  {
+    "invoiceId": "IN0001",
+    "itemDetailId": "it003",
+    "itemQuantityType": "Lô",
+    "itemQuantity": 2,
+    "sellPrice": 95000
+  },
+  {
+    "invoiceId": "IN0002",
+    "itemDetailId": "it001",
+    "itemQuantityType": "Lẻ",
+    "itemQuantity": 4,
+    "sellPrice": 45000
+  },
+  {
+    "invoiceId": "IN0003",
+    "itemDetailId": "it004",
+    "itemQuantityType": "Lô",
+    "itemQuantity": 1,
+    "sellPrice": 72000
+  }
+]

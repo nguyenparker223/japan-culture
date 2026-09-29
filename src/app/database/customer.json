@@ -1,0 +1,18 @@
+[
+  {
+    "customerId": "C0001",
+    "customerName": "Đặng Kim Ngân",
+    "customerAddress": "Duyên Hà"
+  },
+  {
+    "customerId": "C0002",
+    "customerName": "Cù Khôi Nguyên",
+    "customerPhoneNo": "0123456789"
+  },
+  {
+    "customerId": "C0003",
+    "customerName": "Võ Minh Nhật",
+    "customerAddress": "Tây Hồ",
+    "customerPhoneNo": "0111111119"
+  }
+]

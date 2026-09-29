@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bb",
+    "itemName": "Pond's kem",
+    "itemCategoryId": "ic001",
+    "itemUnit": "tuýp",
+    "state": 1,
+    "itemDetailList": ["it001", "it003"]
+  },
+  {
+    "id": "vi",
+    "itemName": "Kem Aron",
+    "itemCategoryId": "ic001",
+    "itemUnit": "vỉ",
+    "state": 1,
+    "itemDetailList": ["it002"]
+  },
+  {
+    "id": "jo",
+    "itemName": "Kem dưỡng ẩm Johnson's baby",
+    "itemCategoryId": "ic001",
+    "itemUnit": "hộp",
+    "state": 1,
+    "itemDetailList": ["it004"]
+  }
+]

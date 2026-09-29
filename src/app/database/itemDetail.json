@@ -1,0 +1,34 @@
+[
+  {
+    "id": "it001",
+    "itemId": "bb",
+    "description": "BB 50g",
+    "itemQuantityPerUnit": 12,
+    "itemPurchasePrice": 104000,
+    "itemSellPrice": 104000
+  },
+  {
+    "id": "it002",
+    "itemId": "vi",
+    "description": "Vitamin E 200g",
+    "itemQuantityPerRetail": 6,
+    "itemPurchasePrice": 18000,
+    "itemSellPrice": 18000
+  },
+  {
+    "id": "it003",
+    "itemId": "bb",
+    "description": "50g ngày+ đêm",
+    "itemQuantityPerUnit": 12,
+    "itemPurchasePrice": 105000,
+    "itemSellPrice": 105000
+  },
+  {
+    "id": "it004",
+    "itemId": "jo",
+    "description": "50g",
+    "itemQuantityPerUnit": 12,
+    "itemPurchasePrice": 27000,
+    "itemSellPrice": 27000
+  }
+]
