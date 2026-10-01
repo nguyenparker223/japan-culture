@@ -7,6 +7,7 @@ import { MenuTestPage } from "../pages/MenuTestPage";
 import { getCSSVariableValue } from "../../_metronic/assets/ts/_utils";
 import { WithChildren } from "../../_metronic/helpers";
 import { HomeWrapper } from "../pages/home/HomeWrapper";
+import { ArticleWrapper } from "../pages/article/ArticleWrapper";
 
 const PrivateRoutes = () => {
 
@@ -15,6 +16,7 @@ const PrivateRoutes = () => {
       <Route element={<MasterLayout />}>
         <Route path="dashboard" element={<DashboardWrapper />} />
         <Route path="home" element={<HomeWrapper />} />
+        <Route path="articles" element={<ArticleWrapper />} />
         <Route path="*" element={<Navigate to="/dashboard" />} />
       </Route>
     </Routes>

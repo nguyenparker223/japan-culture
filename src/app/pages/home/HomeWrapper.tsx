@@ -15,6 +15,7 @@ import {
   TablesWidget5,
 } from "../../../_metronic/partials/widgets";
 import FeaturedCarousel, { FeaturedItem } from "./FeaturedCarousel";
+import CategoryPicker from "./CategoryPicker";
 
 const HomePage = () => (
   <>
@@ -49,12 +50,20 @@ const HomeWrapper = () => {
     href: "/games/starfall",
   },
   // ...more items
-];
+  ];
+  const categories = [
+    { id: "traditionalFoods", label: "Traditional Foods", description: "Sushi, Ramen, Tempura", href: "/nature/" },
+    { id: "festivals", label: "Festivals", description: "Gion Matsuri, Tanabata, Awa Odori", href: "/nature/" },
+    { id: "destinations", label: "Destinations", description: "Kyoto, Tokyo, Nara", href: "/nature/" }
+  ];
 
   return (
     <>
       <div>
         <FeaturedCarousel items={items} mediaPosition="left" autoPlayInterval={8000} />
+        <CategoryPicker
+          categories={categories}
+        />
       </div>
     </>
   );

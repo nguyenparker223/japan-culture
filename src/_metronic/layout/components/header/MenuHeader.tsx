@@ -8,7 +8,7 @@ export function MenuHeader() {
   return (
     <>
       <MenuItem title={intl.formatMessage({id: 'MENU.HOME'})} to='/home' />
-      <MenuItem title={intl.formatMessage({id: 'MENU.ARTICLE'})} to='/article' />
+      <MenuItem title={intl.formatMessage({id: 'MENU.ARTICLE'})} to='/articles' />
       <MenuItem title={intl.formatMessage({id: 'MENU.ABOUT_US'})} to='/about-us' />
     </>
   )
